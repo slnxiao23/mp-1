@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Resume - Projects</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Projects</h1>
+        </header>
+
+        <div class="Menue">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="work-experience.html">Work Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="hobby.html">Hobby</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <h2>Calculator</h2>
+                <p>Simple calculator built using JavaScript.</p>
+
+                <!-- Calculator Section -->
+                <div class="calculator">
+                    <label class="label-number" for="first-number">1st #: </label>
+                    <input id="first-number" type="number">
+                
+                    <label class="label-number" for="second-number">2nd #: </label>
+                    <input id="second-number" type="number">
+                
+                    <!-- Calculator Buttons -->
+                    <div class="buttons">
+                        <button onclick="addition()"> + </button>
+                        <button onclick="subtraction()"> - </button>
+                        <button onclick="multiplication()"> * </button>
+                        <button onclick="division()"> / </button>
+                        <button onclick="power()"> ^ </button>
+                        <button onclick="clearFields()"> Clear </button>
+                    </div>
+                
+                    <!-- Output Section -->
+                    <h3 id="output"></h3>
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            <p>All rights reserved by Ruyue Xiao <a href="credit.html">Credit &copy;</a></p>
+        </footer>
+
+        <script src="script.js"></script> <!-- Linking JS file -->
+    </body>
+</html>
